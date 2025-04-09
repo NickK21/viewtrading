@@ -218,7 +218,7 @@ function App() {
         </Details>
       </DisplayBox>
       <Footer>
-        Bulit & Designed By  Nick KaplaN
+        Built & Designed By Nick Kaplan
       </Footer>
     </Wrapper>
   );
