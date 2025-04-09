@@ -2,8 +2,7 @@
 
 This project provides a comprehensive trading view dashboard, allowing users to search for and view detailed information about stocks, cryptocurrencies, and other financial instruments.
 
-🌐 [**Live Site**](https://viewtrading.netlify.app/)
-
+🌐 [**Live Site**](https://viewtrader.netlify.app/)
 
 ## Table of Contents
 
@@ -24,8 +23,6 @@ This project provides a comprehensive trading view dashboard, allowing users to 
   <img src="https://github.com/sunami09/viewtrading/assets/66564001/53b2b463-aac3-4a1b-8dc3-f639cb3b7c3f" >
 </p>
 
-
-
 ## Installation
 
 ```bash
@@ -40,7 +37,6 @@ npm start
 1. Open the application in your browser.
 2. Use the search bar to enter the ticker symbol of the financial instrument you're interested in.
 3. View detailed information about the instrument.
-
 
 ## Code Snippets
 
@@ -86,9 +82,9 @@ To ensure descriptions are concise and user-friendly:
 
 ```javascript
 function truncateDescription(desc) {
-  const words = desc.split(' ');
+  const words = desc.split(" ");
   if (words.length > 70) {
-    return words.slice(0, 70).join(' ') + '...';
+    return words.slice(0, 70).join(" ") + "...";
   }
   return desc;
 }
@@ -101,11 +97,11 @@ To search for a financial instrument using its ticker symbol:
 ```javascript
 function searchTicker(symbol) {
   fetch(`https://api.example.com/search?symbol=${symbol}&apikey=${API_KEY}`)
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       // Handle the data
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Error fetching data:", error);
     });
 }
@@ -121,12 +117,14 @@ To fetch data for a specific stock, we make a GET request to the API's `quote` e
 
 ```javascript
 const symbol = "AAPL"; // Example for Apple Inc.
-fetch(`https://api.financialmodelingprep.com/api/v3/quote/${symbol}?apikey=${API_KEY}`)
-  .then(response => response.json())
-  .then(data => {
+fetch(
+  `https://api.financialmodelingprep.com/api/v3/quote/${symbol}?apikey=${API_KEY}`
+)
+  .then((response) => response.json())
+  .then((data) => {
     // Handle the data
   })
-  .catch(error => {
+  .catch((error) => {
     console.error("Error fetching stock data:", error);
   });
 ```
@@ -154,7 +152,6 @@ Here's an example of the JSON response when querying for Apple Inc.:
 ```
 
 This response provides a wealth of information about the stock, including its current price, market capitalization, and a brief description.
-
 
 ## Contributing
 
