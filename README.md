@@ -20,7 +20,9 @@ This project provides a comprehensive trading view dashboard, allowing users to 
 - **Error Handling**: Gracefully handles errors and provides user-friendly error messages.
 
 <p align="center">
-  <img src="https://github.com/sunami09/viewtrading/assets/66564001/53b2b463-aac3-4a1b-8dc3-f639cb3b7c3f" >
+  <img src="Home" >
+  <img src="NKE" >
+  <img src="DXCM" >
 </p>
 
 ## Installation
@@ -39,6 +41,7 @@ npm start
 3. View detailed information about the instrument.
 
 ## Code Snippets
+
 
 ### Handling API Keys
 
@@ -160,3 +163,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+[def]: screenshots/DXCM.pn
+[def2]: screenshots/Home.pn
+[def3]: screenshots/NKE.pn
