@@ -20,9 +20,9 @@ This project provides a comprehensive trading view dashboard, allowing users to 
 - **Error Handling**: Gracefully handles errors and provides user-friendly error messages.
 
 <p align="center">
-  <img src="Home" >
-  <img src="NKE" >
-  <img src="DXCM" >
+  <img src="screenshots/Home.png" >
+  <img src="screenshots/DXCM.png" >
+  <img src="screenshots/NKE.png" >
 </p>
 
 ## Installation
@@ -163,8 +163,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-[def]: screenshots/DXCM.pn
-[def2]: screenshots/Home.pn
-[def3]: screenshots/NKE.pn
